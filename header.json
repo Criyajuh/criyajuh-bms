@@ -1,6 +1,6 @@
 ﻿{
 "name" : "Criyajuh差分難易度表",
-"symbol" : "P例",
+"symbol" : "cj",
 "data_url" : "./score.json",
 "level_order" : [0,1,2,3,4,5,6,7]
 
