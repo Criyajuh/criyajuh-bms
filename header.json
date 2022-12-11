@@ -1,7 +1,6 @@
 ﻿{
 "name" : "Criyajuh差分難易度表",
 "symbol" : "cj",
-"data_url" : "./score.json",
+"data_url" : "https://script.googleusercontent.com/macros/echo?user_content_key=gy4kU2gJUKda76Ndq7xA5YbtEdsMHabM-8Lor6sSLzVOnvnEUXfJkL9w7MiBG1DuhW7JtmVE7Ed9x-lCuqnxA1lgWut_mMQvm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnOxn5a6W0C79Rvc19-S_jReisy9XihOXEAPvrajMUMEl4ZIWXbDJN1sJKuhJuDz9hOCstEDCY0lywjcQqDMcF1rpAmz9XKMhgdz9Jw9Md8uu&lib=MeA3U-r3onQc2S_q-zRQncAvZDfxmAUC8",
 "level_order" : [0,1,2,3,4,5,6,7]
-
 }
