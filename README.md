@@ -32,6 +32,6 @@ Twitter：[ねょ(Criyajuh)](https://twitter.com/Lehtath)
 
 # SpecialThanks
 
-本ページ公開にあたり、[ladymade-star](https://ladymade-star.hateblo.jp/)様を参考に作成させていただきました。
+本ページ公開にあたり、PMS Database様を参考に作成させていただきました。
 
 心より深く感謝申し上げます。
