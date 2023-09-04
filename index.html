@@ -98,17 +98,11 @@
             } else {
                 // そうでない場合はレベル順->タイトル順にソート
                 info.sort(function (a, b) {
-                    var levelA = parseInt(a["level"]);
-                    var levelB = parseInt(b["level"]);
-                    if (!isNaN(levelA) && !isNaN(levelB)) {
-                        if (levelA < levelB) {
-                            return -1;
-                        } else if (levelA > levelB) {
-                            return 1;
-                        }
-                    }
-                    // レベルが同じ場合はタイトルでソート
-                    if (a["title"].toLowerCase() < b["title"].toLowerCase()) {
+                    if (a["level"] < b["level"]) {
+                        return -1;
+                    } else if (a["level"] > b["level"]) {
+                        return 1;
+                    } else if (a["title"].toLowerCase() < b["title"].toLowerCase()) {
                         return -1;
                     } else if (a["title"].toLowerCase() > b["title"].toLowerCase()) {
                         return 1;
