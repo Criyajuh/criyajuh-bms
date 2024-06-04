@@ -16,6 +16,7 @@
     <center>
         <strong><span style="font-size: 24pt;">Criyajuh難易度表</span></strong><br>
         <p>難易度表として利用する場合、本ページURLをそのままご利用ください。</p>
+        <p>各差分については、LR2IRからリンクを辿ってDLお願いします。LR2IRに登録が無ければStella Uploaderにありますのでそちらで検索してください。</p>
         <p>その他詳細につきましては、<a href="https://github.com/Criyajuh/Criyajuh-BMS">README</a>をご確認ください。</p>
     </center>
 
@@ -114,7 +115,7 @@
 
             // 表のクリア
             obj.html("");
-            $("<tr height='20' style='color:white;background-color:#666666'><td align='center'>LV</td><td align='center'>動画</td><td align='center'>譜面</td><td align='center'>Mocha</td><td align='center'>タイトル</td><td align='center'>本体</td><td align='center'>差分</td><td align='center'>コメント</td></tr>").appendTo(obj);
+            $("<tr height='20' style='color:white;background-color:#666666'><td align='center'>LV</td><td align='center'>動画</td><td align='center'>譜面</td><td align='center'>Mocha</td><td align='center'>タイトル</td><td align='center'>本体</td><td align='center'>オススメ度</td><td align='center'>コメント</td></tr>").appendTo(obj);
             var obj_sep = null;
             for (var i = 0; i < info.length; i++) {
                 // 難度ごとの区切り
@@ -198,7 +199,7 @@
                     }
                 }
                 $("<td width='20%'>" + astr + "</td>").appendTo(str);
-                // 差分
+                // オススメ度
                 if (info[i].url_diff != "" && info[i].url_diff != null) {
                     if (info[i].name_diff != "" && info[i].name_diff != null) {
                         $("<td width='15%'><a href='" + info[i].url_diff + "'>" + info[i].name_diff + "</a></td>").appendTo(str);
